@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F593F0413D12CCD00E4D6B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F593F0313D12CCD00E4D6B7 /* UIKit.framework */; };
+		3F593F0613D12CCD00E4D6B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F593F0513D12CCD00E4D6B7 /* Foundation.framework */; };
+		3F593F0813D12CCD00E4D6B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F593F0713D12CCD00E4D6B7 /* CoreGraphics.framework */; };
+		3F593F0E13D12CCE00E4D6B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F593F0C13D12CCE00E4D6B7 /* InfoPlist.strings */; };
+		3F593F1113D12CCE00E4D6B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F593F1013D12CCE00E4D6B7 /* main.m */; };
+		3F593F1413D12CCE00E4D6B7 /* worldcontinentsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F593F1313D12CCE00E4D6B7 /* worldcontinentsAppDelegate.m */; };
+		3F593F1713D12CCE00E4D6B7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F593F1513D12CCE00E4D6B7 /* MainWindow.xib */; };
+		3F593F1A13D12CCE00E4D6B7 /* worldcontinentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F593F1913D12CCE00E4D6B7 /* worldcontinentsViewController.m */; };
+		3F593F1D13D12CCE00E4D6B7 /* worldcontinentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F593F1B13D12CCE00E4D6B7 /* worldcontinentsViewController.xib */; };
+		3F593F4513D4B28200E4D6B7 /* InfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F593F4413D4B28200E4D6B7 /* InfoView.m */; };
+		3F593F4E13D50CAE00E4D6B7 /* africa.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F593F4613D50CAB00E4D6B7 /* africa.png */; };
+		3F593F4F13D50CAE00E4D6B7 /* antarctica.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F593F4713D50CAB00E4D6B7 /* antarctica.png */; };
+		3F593F5013D50CAE00E4D6B7 /* asia.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F593F4813D50CAC00E4D6B7 /* asia.png */; };
+		3F593F5113D50CAE00E4D6B7 /* australia.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F593F4913D50CAC00E4D6B7 /* australia.png */; };
+		3F593F5213D50CAE00E4D6B7 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F593F4A13D50CAD00E4D6B7 /* Background.png */; };
+		3F593F5313D50CAE00E4D6B7 /* europe.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F593F4B13D50CAD00E4D6B7 /* europe.png */; };
+		3F593F5413D50CAE00E4D6B7 /* northamerica.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F593F4C13D50CAD00E4D6B7 /* northamerica.png */; };
+		3F593F5513D50CAE00E4D6B7 /* southamerica.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F593F4D13D50CAE00E4D6B7 /* southamerica.png */; };
+		3F593F5713D50F0B00E4D6B7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F593F5613D50F0A00E4D6B7 /* QuartzCore.framework */; };
+		3F593F6413D65ADD00E4D6B7 /* overtherainbow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F593F6313D65ADD00E4D6B7 /* overtherainbow.mp3 */; };
+		3F593F6613D65D4500E4D6B7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F593F6513D65D4500E4D6B7 /* AVFoundation.framework */; };
+		3F5A8F1813D7E3CD0070CC97 /* Refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F5A8F1713D7E3CD0070CC97 /* Refresh.png */; };
+		C873380313D7E97B00807CE7 /* ContinentView.m in Sources */ = {isa = PBXBuildFile; fileRef = C873380213D7E97B00807CE7 /* ContinentView.m */; };
+		C873380513D7EB4B00807CE7 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C873380413D7EB4B00807CE7 /* Icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F593EFF13D12CCD00E4D6B7 /* worldcontinents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = worldcontinents.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F593F0313D12CCD00E4D6B7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F593F0513D12CCD00E4D6B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F593F0713D12CCD00E4D6B7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F593F0B13D12CCE00E4D6B7 /* worldcontinents-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "worldcontinents-Info.plist"; sourceTree = "<group>"; };
+		3F593F0D13D12CCE00E4D6B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F593F0F13D12CCE00E4D6B7 /* worldcontinents-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "worldcontinents-Prefix.pch"; sourceTree = "<group>"; };
+		3F593F1013D12CCE00E4D6B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F593F1213D12CCE00E4D6B7 /* worldcontinentsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = worldcontinentsAppDelegate.h; sourceTree = "<group>"; };
+		3F593F1313D12CCE00E4D6B7 /* worldcontinentsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = worldcontinentsAppDelegate.m; sourceTree = "<group>"; };
+		3F593F1613D12CCE00E4D6B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		3F593F1813D12CCE00E4D6B7 /* worldcontinentsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = worldcontinentsViewController.h; sourceTree = "<group>"; };
+		3F593F1913D12CCE00E4D6B7 /* worldcontinentsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = worldcontinentsViewController.m; sourceTree = "<group>"; };
+		3F593F1C13D12CCE00E4D6B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/worldcontinentsViewController.xib; sourceTree = "<group>"; };
+		3F593F3113D3B84900E4D6B7 /* ContinentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContinentView.h; sourceTree = "<group>"; };
+		3F593F4313D4B28200E4D6B7 /* InfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoView.h; path = worldcontinents.xcodeproj/InfoView.h; sourceTree = SOURCE_ROOT; };
+		3F593F4413D4B28200E4D6B7 /* InfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoView.m; path = worldcontinents.xcodeproj/InfoView.m; sourceTree = SOURCE_ROOT; };
+		3F593F4613D50CAB00E4D6B7 /* africa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = africa.png; sourceTree = "<group>"; };
+		3F593F4713D50CAB00E4D6B7 /* antarctica.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = antarctica.png; sourceTree = "<group>"; };
+		3F593F4813D50CAC00E4D6B7 /* asia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asia.png; sourceTree = "<group>"; };
+		3F593F4913D50CAC00E4D6B7 /* australia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = australia.png; sourceTree = "<group>"; };
+		3F593F4A13D50CAD00E4D6B7 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		3F593F4B13D50CAD00E4D6B7 /* europe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = europe.png; sourceTree = "<group>"; };
+		3F593F4C13D50CAD00E4D6B7 /* northamerica.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = northamerica.png; sourceTree = "<group>"; };
+		3F593F4D13D50CAE00E4D6B7 /* southamerica.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = southamerica.png; sourceTree = "<group>"; };
+		3F593F5613D50F0A00E4D6B7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3F593F6313D65ADD00E4D6B7 /* overtherainbow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = overtherainbow.mp3; sourceTree = "<group>"; };
+		3F593F6513D65D4500E4D6B7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3F5A8F1713D7E3CD0070CC97 /* Refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Refresh.png; sourceTree = "<group>"; };
+		C873380213D7E97B00807CE7 /* ContinentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContinentView.m; sourceTree = "<group>"; };
+		C873380413D7EB4B00807CE7 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F593EFC13D12CCD00E4D6B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F593F6613D65D4500E4D6B7 /* AVFoundation.framework in Frameworks */,
+				3F593F5713D50F0B00E4D6B7 /* QuartzCore.framework in Frameworks */,
+				3F593F0413D12CCD00E4D6B7 /* UIKit.framework in Frameworks */,
+				3F593F0613D12CCD00E4D6B7 /* Foundation.framework in Frameworks */,
+				3F593F0813D12CCD00E4D6B7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F593EF413D12CCD00E4D6B7 = {
+			isa = PBXGroup;
+			children = (
+				3F593F6513D65D4500E4D6B7 /* AVFoundation.framework */,
+				3F593F5613D50F0A00E4D6B7 /* QuartzCore.framework */,
+				3F593F0913D12CCD00E4D6B7 /* worldcontinents */,
+				3F593F0213D12CCD00E4D6B7 /* Frameworks */,
+				3F593F0013D12CCD00E4D6B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F593F0013D12CCD00E4D6B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F593EFF13D12CCD00E4D6B7 /* worldcontinents.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F593F0213D12CCD00E4D6B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F593F0313D12CCD00E4D6B7 /* UIKit.framework */,
+				3F593F0513D12CCD00E4D6B7 /* Foundation.framework */,
+				3F593F0713D12CCD00E4D6B7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F593F0913D12CCD00E4D6B7 /* worldcontinents */ = {
+			isa = PBXGroup;
+			children = (
+				C873380413D7EB4B00807CE7 /* Icon.png */,
+				3F5A8F1713D7E3CD0070CC97 /* Refresh.png */,
+				3F593F1213D12CCE00E4D6B7 /* worldcontinentsAppDelegate.h */,
+				3F593F1313D12CCE00E4D6B7 /* worldcontinentsAppDelegate.m */,
+				3F593F1513D12CCE00E4D6B7 /* MainWindow.xib */,
+				3F593F4313D4B28200E4D6B7 /* InfoView.h */,
+				3F593F4413D4B28200E4D6B7 /* InfoView.m */,
+				3F593F4613D50CAB00E4D6B7 /* africa.png */,
+				3F593F4713D50CAB00E4D6B7 /* antarctica.png */,
+				3F593F4813D50CAC00E4D6B7 /* asia.png */,
+				3F593F6313D65ADD00E4D6B7 /* overtherainbow.mp3 */,
+				3F593F4913D50CAC00E4D6B7 /* australia.png */,
+				3F593F4A13D50CAD00E4D6B7 /* Background.png */,
+				3F593F4B13D50CAD00E4D6B7 /* europe.png */,
+				3F593F4C13D50CAD00E4D6B7 /* northamerica.png */,
+				3F593F4D13D50CAE00E4D6B7 /* southamerica.png */,
+				3F593F1813D12CCE00E4D6B7 /* worldcontinentsViewController.h */,
+				3F593F1913D12CCE00E4D6B7 /* worldcontinentsViewController.m */,
+				3F593F3113D3B84900E4D6B7 /* ContinentView.h */,
+				C873380213D7E97B00807CE7 /* ContinentView.m */,
+				3F593F1B13D12CCE00E4D6B7 /* worldcontinentsViewController.xib */,
+				3F593F0A13D12CCE00E4D6B7 /* Supporting Files */,
+			);
+			path = worldcontinents;
+			sourceTree = "<group>";
+		};
+		3F593F0A13D12CCE00E4D6B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F593F0B13D12CCE00E4D6B7 /* worldcontinents-Info.plist */,
+				3F593F0C13D12CCE00E4D6B7 /* InfoPlist.strings */,
+				3F593F0F13D12CCE00E4D6B7 /* worldcontinents-Prefix.pch */,
+				3F593F1013D12CCE00E4D6B7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F593EFE13D12CCD00E4D6B7 /* worldcontinents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F593F2013D12CCE00E4D6B7 /* Build configuration list for PBXNativeTarget "worldcontinents" */;
+			buildPhases = (
+				3F593EFB13D12CCD00E4D6B7 /* Sources */,
+				3F593EFC13D12CCD00E4D6B7 /* Frameworks */,
+				3F593EFD13D12CCD00E4D6B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = worldcontinents;
+			productName = worldcontinents;
+			productReference = 3F593EFF13D12CCD00E4D6B7 /* worldcontinents.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F593EF613D12CCD00E4D6B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
+			buildConfigurationList = 3F593EF913D12CCD00E4D6B7 /* Build configuration list for PBXProject "worldcontinents" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F593EF413D12CCD00E4D6B7;
+			productRefGroup = 3F593F0013D12CCD00E4D6B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F593EFE13D12CCD00E4D6B7 /* worldcontinents */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F593EFD13D12CCD00E4D6B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F593F0E13D12CCE00E4D6B7 /* InfoPlist.strings in Resources */,
+				3F593F1713D12CCE00E4D6B7 /* MainWindow.xib in Resources */,
+				3F593F1D13D12CCE00E4D6B7 /* worldcontinentsViewController.xib in Resources */,
+				3F593F4E13D50CAE00E4D6B7 /* africa.png in Resources */,
+				3F593F4F13D50CAE00E4D6B7 /* antarctica.png in Resources */,
+				3F593F5013D50CAE00E4D6B7 /* asia.png in Resources */,
+				3F593F5113D50CAE00E4D6B7 /* australia.png in Resources */,
+				3F593F5213D50CAE00E4D6B7 /* Background.png in Resources */,
+				3F593F5313D50CAE00E4D6B7 /* europe.png in Resources */,
+				3F593F5413D50CAE00E4D6B7 /* northamerica.png in Resources */,
+				3F593F5513D50CAE00E4D6B7 /* southamerica.png in Resources */,
+				3F593F6413D65ADD00E4D6B7 /* overtherainbow.mp3 in Resources */,
+				3F5A8F1813D7E3CD0070CC97 /* Refresh.png in Resources */,
+				C873380513D7EB4B00807CE7 /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F593EFB13D12CCD00E4D6B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F593F1113D12CCE00E4D6B7 /* main.m in Sources */,
+				3F593F1413D12CCE00E4D6B7 /* worldcontinentsAppDelegate.m in Sources */,
+				3F593F1A13D12CCE00E4D6B7 /* worldcontinentsViewController.m in Sources */,
+				3F593F4513D4B28200E4D6B7 /* InfoView.m in Sources */,
+				C873380313D7E97B00807CE7 /* ContinentView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F593F0C13D12CCE00E4D6B7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F593F0D13D12CCE00E4D6B7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3F593F1513D12CCE00E4D6B7 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F593F1613D12CCE00E4D6B7 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		3F593F1B13D12CCE00E4D6B7 /* worldcontinentsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F593F1C13D12CCE00E4D6B7 /* en */,
+			);
+			name = worldcontinentsViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F593F1E13D12CCE00E4D6B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		3F593F1F13D12CCE00E4D6B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		3F593F2113D12CCE00E4D6B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jose Malca (ZQ4VVG8D2Z)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "worldcontinents/worldcontinents-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "worldcontinents/worldcontinents-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "880DE704-8907-4BE8-8BA2-09EBD154DEAC";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3F593F2213D12CCE00E4D6B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jose Malca (ZQ4VVG8D2Z)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "worldcontinents/worldcontinents-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "worldcontinents/worldcontinents-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "880DE704-8907-4BE8-8BA2-09EBD154DEAC";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F593EF913D12CCD00E4D6B7 /* Build configuration list for PBXProject "worldcontinents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F593F1E13D12CCE00E4D6B7 /* Debug */,
+				3F593F1F13D12CCE00E4D6B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F593F2013D12CCE00E4D6B7 /* Build configuration list for PBXNativeTarget "worldcontinents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F593F2113D12CCE00E4D6B7 /* Debug */,
+				3F593F2213D12CCE00E4D6B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F593EF613D12CCD00E4D6B7 /* Project object */;
+}
